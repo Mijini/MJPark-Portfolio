@@ -1,0 +1,166 @@
+/*********** 전체공통 **********/
+*{margin: 0; padding: 0;}
+#wrap{margin: 0 auto; width: 1920px;}
+ul li {list-style: none;}
+ul li a{text-decoration: none; color: black;}
+a{text-decoration: none; color: black;}
+.clear{clear: both;}
+.inner{width: 1200px; margin: 0 auto;}
+.ONE-Mobile-Regular{font-family: ONE-Mobile-Regular;}
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{font-size: 80px;}
+h2{font-size: 50px;}
+h3{font-size: 40px;}
+h4{font-size: 30px;}
+h5{font-size: 20px;}
+p{font-size: 15px;}
+/*********** 헤더 **********/
+header .inner div{
+    float: left;
+}
+/****** 네비 ******/
+nav{
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+nav >ul >li{
+    float: left;
+    width: 25%;
+    padding: 15px 0;
+}
+nav ul li:nth-child(3){
+    position: relative;
+    z-index: 99;
+}
+
+nav ul li:nth-child(3) ul li{
+    float: left;
+    width: 100%;
+}
+nav >ul >li:hover ul{
+    display: block;
+}
+nav >ul >li:nth-child(3):hover{
+    background-color: #4c6efe;
+    border-radius: 5px 5px 0 0;
+}
+nav >ul .sub{
+    position: absolute;
+    top: 35px;
+    background-color: #4c6efe;
+    border-radius: 0 0 5px 5px;
+    display: none;
+}
+.sub{
+    padding: 10px 0;
+}
+.sub> li:hover{
+    background-color: black;
+}
+.sub> li{
+    padding: 10px 0;
+}
+.sub> li> a{
+    color: white;
+}
+
+/*********** 메인 **********/
+.s4_main{
+    height: 450px;
+    text-align: center;
+}
+.s4_main_logo img{
+    width: 120px; height: 40px;
+    object-fit: cover;
+    padding-top: 95px;
+}
+.s4_main h3{
+    margin: 25px 0 75px 0;
+}
+/*********** 폼 **********/
+.form{
+    border: none;
+}
+.form .inner{
+    height: 1600px ;
+}
+.form .inner div{
+    padding: 40px 0 0 30px;
+}
+label{
+    font-size: 30px;
+} 
+#company,#cectors,#phone,#email{
+    width: 1133px; height: 72px;
+    border: solid 1px #a29f9f;
+    margin: 25px 0 25px 0;
+    font-size: 25px;
+    color: #8c8c8c;
+}
+#contact{
+    width: 1133px; height: 506px;
+    border: solid 1px #a29f9f;
+    margin: 25px 0 25px 0;
+    font-size: 25px;
+    color: #8c8c8c;
+}
+.checkbox{
+    width: 17px; height: 17px;
+    border: solid 1px #a29f9f;
+    margin: 10px 0;
+}
+.c_text{
+    font-size: 15px;
+    color: #908f8f;
+    margin-left: 15px;
+    position: relative;
+    top: -5px;
+}
+.submit{
+    width: 1133px; height: 116px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 85px;
+    cursor: pointer;
+}
+/*********** 푸터 **********/
+footer{
+    width: 100%; height: 423px;
+    text-align: center; color: #838383;
+}
+.f1 img{
+    margin: 60px 0 60px 0;
+    box-sizing: border-box;
+}
+.f1 ul{
+    margin-left: 730px; box-sizing: border-box;
+}
+.f1 ul li{
+    float: left; margin: 70px 0 30px 16px;
+}
+.f2{
+    width: 100%; height: 129px; background-color: #f7f8f9;
+}
+.f2 p{
+    line-height: 8.5em;
+}
+.topbtn{
+    background-color: rgba(230, 227, 227, 0.795);
+    border-radius: 30px;
+    width: 50px; height: 50px;
+    text-align: center;
+    line-height: 3.2em;
+    position: fixed;
+    top: 90%; right: 2%;
+    cursor: pointer;
+}
