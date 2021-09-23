@@ -1,0 +1,460 @@
+/* 전체공통 */
+*{margin: 0; padding: 0;}
+.wrap{width: 100%;}
+.inner{width: 62.5%; margin: 0 auto;}
+.clear{clear: both;}
+h1{font-size: 5em;}
+h2{font-size: 4.375em;}
+h3{font-size: 3.75em;}
+h4{font-size: 3.125em;}
+h5{font-size: 2.5em;}
+h6{font-size: 1.875em;}
+p{font-size: 1.25em;}
+@font-face {
+    font-family: 'SBAggroM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.SBAggroM{font-family: 'SBAggroM';}
+@font-face {
+    font-family: 'NEXON Lv2 Gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.NEXON_Lv2_Gothic{font-family: 'NEXON Lv2 Gothic';}
+/* 메인 */
+.main img{
+    width: 100%;
+    display: block;
+}
+/* 컨텐츠1 */
+.content1{
+    position: relative;
+}
+.con1_img{
+    width: 100%;
+    display: block;
+}
+.gumon{
+    width: 20%;
+    position: absolute;
+    top: 50%; left: 20%;
+}
+.gumon img{
+    max-width: 100%;
+}
+/* 컨텐츠2 */
+.content2{
+    width: 100%; height: 1250px;
+}
+.con2_title{
+    position: absolute;
+    left: calc(50% - 272.5px);
+    text-align: center;
+    margin-top: 107px;
+}
+.con2_title h4{
+    position:relative;
+    z-index: 200;
+}
+.con2_title h6{
+    font-weight: lighter;
+    padding-top: 30px;
+
+}
+.con2_title div{
+    position: absolute;
+    top: 30px; left: 140px;
+    z-index: 100;
+}
+.up-on-scroll {
+    transition: transform 1s, opacity 1s;
+}
+.gray,.pink{
+    width: 50%;
+}
+.gray div img{
+    margin: 50px 75px 0 0;
+    
+}
+
+.gray{
+    background-color: #e2e1e0;
+    float: left;
+}
+.gray div{
+    width: 550px; height: 100%;
+    padding-top: 270px;
+    float: right;
+    text-align: center;
+}
+.gray h6{
+    font-weight: lighter;
+    text-align: center;
+    margin: 40px 80px 0 0;
+    padding-bottom: 95px;
+    
+}
+.gray span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.pink{
+    background-color: #fdf2ed;
+    float: left;
+}
+.pink div:nth-child(1){
+    width: 600px; height: 100%;
+    padding-top: 270px;
+    float: left;
+    text-align: center;
+}
+.pink h6{
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px 0 0 68px;
+    padding-bottom: 95px;
+    position: relative;
+    z-index: 200;
+}
+.pink span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.pink div:nth-child(1)>img:nth-child(1){
+    margin: 50px 0 0 60px;
+}
+.yellow_line{
+    position: absolute;
+    top:740px; left:230px;
+}
+.pink div{
+    position: relative;
+}
+.pink div:nth-child(2) img{
+    margin: 450px 0 0 -620px ;
+}
+.orange{
+    width: 100%;
+    background-image: url(../images/content2_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 110px;
+    color: white;
+}
+.orange h5{
+    font-weight: lighter;
+}
+.orange h3{
+    margin-top: 30px;
+    padding-bottom: 140px;
+    font-weight: lighter;
+}
+.orange span{
+    color: black;
+    font-size: 5rem;
+    font-weight: bold;
+}
+/* 컨텐츠3 */
+.content3{
+    position: relative;
+}
+.content3 .con3_bg{
+    width: 100%;
+    display: block;
+}
+.content3 .con3_gif{
+    position: absolute;
+    left: 22%; top: 9%;
+    width: 18%;
+}
+/* 컨텐츠4 */
+.content4 img{
+    width: 100%;
+    display: block;
+}
+/* 컨텐츠5 */
+.content5 img{
+    width: 100%;
+}
+/* 컨텐츠6 */
+.content6 img{
+    width: 100%;
+    display: block;
+}
+/* 컨텐츠7 */
+.content7 img{
+    width: 100%;
+}
+
+/* 컨텐츠8 */
+.autoplay{
+    width: 50%;
+    margin: 0 auto;
+}
+.autoplay div img{
+    box-shadow: 4px 4px 5px #8c5943;
+}
+.content8{
+    width: 100%; height: 1214px;
+}
+.con8_text{
+    margin: 500px 0 100px;
+    text-align: center;
+}
+.con8_text h4{
+    font-size: 3.125rem;
+    display: inline-block;
+}
+.content8 h2 span{
+    color: #ed6535;
+}
+.con8_bg{
+    width: 100%;
+    background-image: url(../images/content8_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*컨텐츠8 슬랙 수정*/
+.content8 .slick-slide{
+    margin: 20px 10px;
+}
+.content8 .center img{
+    max-width: 100%;
+}
+.content8 .a-left{
+    position: absolute; 
+    top: 50%; left: -100px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+.content8 .a-right{
+    position: absolute; 
+    top: 50%; right: -100px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+/* 컨텐츠9 */
+.content9{
+    width: 100%; height: 2173px;
+}
+.content9 h2{
+    text-align: center;
+    padding: 235px 0 180px 0;
+}
+.content9 h2 span{
+    color: #ed6535;
+}
+.blog1{
+    width: 1445px; height: 452px;
+    display: flex;
+    position: relative;
+}
+.blog1 img{
+    margin-right: 66px;
+}
+.blog1 h5{
+    padding: 105px 0 55px 0;
+}
+.blog1 h6{
+    font-weight: lighter;
+}
+.name{
+    position: absolute;
+    bottom: 100px; right: 0;
+    color: #c3bdbd;
+}
+.blog2{
+    width: 1445px; height: 452px;
+    display: flex;
+    position: relative;
+    text-align-last: right;
+    float: right;
+}
+.blog2 img{
+    margin-left: 66px;
+}
+.blog2 h5{
+    padding: 105px 0 55px 0;
+}
+.blog2 h6{
+    font-weight: lighter;
+}
+.blog2_name{
+    position: absolute;
+    bottom: 70px; left: 0;
+    color: #c3bdbd;
+}
+.blog3{
+    width: 1445px; height: 452px;
+    display: flex;
+    position: relative;
+}
+.blog3 img{
+    margin-right: 66px;
+}
+.blog3 h5{
+    padding: 105px 0 55px 0;
+}
+.blog3 h6{
+    font-weight: lighter;
+}
+/* 컨텐츠10 */
+.content10{
+    width: 100%; height: 10.8%;
+    background-color: #fbfbfb;
+}
+.content10 .inner{
+    height: 100%;
+    position: relative;
+}
+.text1,.text2{
+    display: inline-block;
+    position: absolute;
+}
+.text2{
+    right: 0; bottom: 0;
+}
+.insta_logo{
+    padding: 66px 0 53px 0;
+    text-align: center;
+}
+.content10 p{
+    text-align: center;
+    color: #5d5a5a;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.insta_img{
+    width: 56%; height: 56%;
+    margin: 96px auto 0;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.img_box{
+    position: relative;
+}
+.con10_box{
+    width: 160px; height: 160px;
+    background-color: black; opacity: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 0; left: 0;
+    display: none;
+}
+.img_box:hover .con10_box{
+    display: block;
+}
+/* 푸터 */
+.black{
+    width: 100%; height: 550px;
+    background-color: #252525;
+    color: white;
+}
+.black .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+    
+}
+.black .inner div:nth-child(2) p{
+    width: 400px; height: 170px;
+    margin: 0 45px 0 50px;
+    line-height: 1.5em;
+}
+.sns img{
+    cursor: pointer;
+    margin-left: 15px;
+}
+.sns img:hover{
+    transform: scale(110%);
+    transition: all 1s;
+}
+/* 고정 문의하기 메뉴 */
+.fixed_menu{
+    width: 100%; height: 20%;
+    background-color: #ed6535;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+.fixed_menu .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.fixed_menu .inner div:nth-child(2) div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+label{
+    font-size: 1.25em;
+}
+#name{
+    width: 130px; height: 60px;
+    background-color: white;
+    border:none;
+    font-size: 1em;
+}
+#tel{
+    width: 110px; height: 60px;
+    background-color: white;
+    border:none;
+    font-size: 1em;
+    margin-left: 5px;
+}
+#submit{
+    width: 166px; height: 60px;
+    background-color: #f5ae5c;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.25em;
+    cursor: pointer;
+    margin: 0 5px 0 5px;
+}
+#submit:hover{
+    box-shadow: 2px, 2px, 5px,gray;
+}
+.fixed_menu .inner > div:nth-child(3){
+    padding: 20px 0 0 5px;
+}
+.balck_line{
+    width: 3px; height: 75px;
+    background-color: black;
+    float: left;
+    margin-right: 15px;
+}
+.fixed_menu h4{
+    width: 350px;
+}
+/* 탑 버튼 */
+.topbtn{
+    background-color: rgb(243, 242, 242);
+    border-radius: 30px;
+    width: 50px; height: 50px;
+    text-align: center;
+    line-height: 3em;
+    font-weight: 900;
+    position: fixed;
+    top: 70%; right: 5%;
+    cursor: pointer;
+}
+.topbtn a{
+    text-decoration: none;
+    color: black;
+}
+
