@@ -128,7 +128,7 @@ a:active {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Chivo", sans-serif;
   font-weight: 600;
-  color: #000000;
+  color: #545454;
   text-rendering: optimizeLegibility;
 }
 
@@ -1484,7 +1484,7 @@ input::-moz-focus-inner {
   line-height: 1.236;
   letter-spacing: -0.03rem;
   /* margin-top: 15rem; */
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 
 .display-2 {
@@ -1581,7 +1581,7 @@ input::-moz-focus-inner {
   height: 10px;
   line-height: 10px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.4);
+  background: #f1be71;
   border: none;
   padding: 0;
   margin: 0;
@@ -2657,8 +2657,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
   padding-top: 23.2rem;
   padding-bottom: calc((62.4rem/2) + 6.4rem);
-  background-color: #f1be71;
-  color: rgba(65, 63, 63, 0.8);
+  background-color: #eaeaea;
+  /* color: rgba(65, 63, 63, 0.8); */
   overflow: hidden;
   position: relative;
 }
@@ -2669,7 +2669,7 @@ html.no-csstransitions .home-content__main {
 
 .s-about .display-1,
 .s-about h3 {
-  color: rgba(65, 63, 63, 0.8);
+  /* color: rgba(65, 63, 63, 0.8); */
 }
 
 .s-about p.lead {
@@ -4073,11 +4073,14 @@ a.btn-layerClose5:hover {
 }
 
 .s-download .download-bottom-image {
-  margin-top: 11.2rem;
+  /* margin-top: 11.2rem; */
+  margin-bottom: 11.2rem;
+  width: 100%;
 }
 
 .s-download .download-bottom-image img {
   vertical-align: bottom;
+  margin-left: 3.3%;
 }
 
 

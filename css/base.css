@@ -505,6 +505,7 @@ textarea {
 .col-twelve,
 .col-full {
   width: 100%;
+  margin: 0 0 0 0;
 }
 
 
